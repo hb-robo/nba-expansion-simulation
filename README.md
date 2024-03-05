@@ -18,6 +18,15 @@ Leverages the following free data sets from SimpleMaps:
   * exclude cities smaller than another in its media market
   * exclude cities smaller in marketsize
 * determine best expansion candidates for 2-team, 4-team, and 6-team expansion scenarios
+  * judging by:
+    * existence of current WNBA or G-League team - is professional basketball established there?
+      * what NBA team they are linked to - will there be inter-market competition?
+    * existence of other professional sports leagues - is professional sports established there?
+    * physical distance from other existing teams - what is the average travel burden?
+    * average distance from existing 30 teams' cities - does it stand apart from existing franchises?
+    * population of city - how many potential fans?
+    * media market size and rank - how many potential eyes on the game?
+    * GDP of metropolitan area - how much potential money to spend?
 * use hierarchical clustering to determine dividing line between conferences
   * must cut dendrogram to ensure N/2 teams per conference
 * use clustering to determine dividing lines between divisions within conferences
